@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="colorbox.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jquery.colorbox.js"></script>
+<script>
+			$(document).ready(function(){
+		
+				$(".galleryslides").colorbox({rel:'galleryslides', width:"750px", height:"650px", slideshow:true});
+				$(".gallery").colorbox({rel:'gallery', width:"750px", height:"650px", slideshow:true});
+			});
+		</script>
+
+<title>Uniti - Gallery</title>
+</head>
+
+<body>
+
+<div id="gallerybox">
+
+<div id="header">
+<table id="navigation">  
+  <tr>  
+  	 <td class="space1"></td>
+ 	<td><a href ="homepage.html">
+ 	<img id ="logo" src = "images/weblogo.png" alt = "logo" width = "250px"/>
+ 	<!--<img id ="blobs" src = "images/justblobs.gif" alt = "blobs" height = "100px"/><img id ="logo" src = "images/logotype.png" alt = "UNITI-logo" height = "70px"/>--></a></td>  
+ 	<td class="space2"></td>
+ 	<td class="menu"><a href="homepage.html">Uniti Home</a></td>
+ 	<td class="space"></td>
+ 	<td class="menu"><a href="About.html">About Uniti</a></td>  
+	<td class="space"></td>
+ 	<td class="menu"><a href="process.html">Process</a></td>
+ 	<td class="space"></td>
+ 	<td class="menu selected"><a href="gallery.html">Gallery</a></td>
+ 	<td class="space"></td>
+	<td class="menu"><a href="next.html">What's Next?</a></td>
+ 	<td class=" last"></td>
+  </tr>  
+ </table>  
+</div>
+
+<div id="gallerypics">
+	<p> <a class="gallery" id="slideshow" href ="images/children1.jpg">Start Slideshow</a></p>
+	<a class="gallery" href ="images/children1.jpg"><img src="images/children1.jpg" height = "120px" /></a>
+	<a class="gallery" href ="images/gallery1.jpg"><img src="images/gallery1.jpg" height = "120px"/></a>
+	<a class="gallery" href ="materials/gallery5.jpg"><img src="materials/gallery5.jpg" height = "120px"/></a>
+	<a class="gallery" href ="materials/gallery6.jpg"><img src="materials/gallery6.jpg" height = "120px"/></a>
+	<a class="gallery" href ="images/children2.jpg"><img src="images/children2.jpg" height = "120px" /></a>
+	<a class="gallery" href ="materials/gallery7.jpeg"><img src="materials/gallery7.jpeg" height = "120px"/></a>
+	<a class="gallery" href ="materials/gallery4.jpg"><img src="materials/gallery4.jpg" height = "120px"/></a>
+	<a class="gallery" href ="materials/gallery8.jpg"><img src="materials/gallery8.jpg" height = "120px"/></a>
+	<a class="gallery" href ="materials/gallery2.png"><img src="materials/gallery2.png" height = "120px"/></a>
+	<a class="gallery" href ="images/gallery01.jpg"><img src="images/gallery01.jpg" height = "120px" /></a>
+	<a class="gallery" href ="images/gallery02.jpg"><img src="images/gallery02.jpg" height = "120px" /></a>
+	<a class="gallery" href ="images/gallery03.jpg"><img src="images/gallery03.jpg" height = "120px" /></a>
+
+</div>
+
+
+
+</div>
+
+ <div class="footer">
+<p id="copyright">Copyright @2012 by M.J Ma</p>
+
+</div>
+
+</body>
+
+
+
+</html>
